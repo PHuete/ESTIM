@@ -1,0 +1,88 @@
+[
+
+    {
+        "id": 68415,
+        "titulo": "Battlefield 2042",
+        "precio": 59.95,
+        "categoria": "Shooter",
+        "stock": 15,
+        "img": "src/img/BATTLEFIELD2042.jpg"
+    },
+    {
+        "id": 25248,
+        "titulo": "Elden Ring",
+        "precio": 69.95,
+        "categoria": "RPG",
+        "stock": 7,
+        "img": "src/img/ELDENRING2.jpg"
+    },
+    {
+        "id": 56885,
+        "titulo": "NBA2k23",
+        "precio": 44.99,
+        "categoria": "Deportes",
+        "stock": 19,
+        "img": "src/img/NBA2K232.jpg"
+    },
+    {
+        "id": 62623,
+        "titulo": "Madison",
+        "precio": 50.01,
+        "categoria": "Terror",
+        "stock": 3,
+        "img": "src/img/MADISON2.jpg"
+    },
+    {
+        "id": 19051,
+        "titulo": "Stardew Valley",
+        "precio": 18.99,
+        "categoria": "Indie",
+        "stock": 12,
+        "img": "src/img/STARDEWVALLEY2.jpg"
+    },
+    {
+        "id": 45893,
+        "titulo": "FIFA 23",
+        "precio": 58.99,
+        "categoria": "Deportes",
+        "stock": 21,
+        "img": "src/img/FIFA23.jpg"
+    },
+
+    {
+        "id": 29885,
+        "titulo": "Cuphead",
+        "precio": 28.99,
+        "categoria": "Indie",
+        "stock": 9,
+        "img": "src/img/CUPHEAD.jpg"
+    },
+    {
+        "id": 78558,
+        "titulo": "Blair Witch",
+        "precio": 15.99,
+        "categoria": "Terror",
+        "stock": 11,
+        "img": "src/img/BLAIRWITCH.jpg"
+    },
+    {
+        "id": 10220,
+        "titulo": "Doom: Eternal",
+        "precio": 45.01,
+        "categoria": "Shooter",
+        "stock": 17,
+        "img": "src/img/DOOMETERNAL.jpg"
+    },
+    {
+        "id": 69980,
+        "titulo": "Disco Elysium",
+        "precio": 29.99,
+        "categoria": "RPG",
+        "stock": 10,
+        "img": "src/img/DISCOELYSIUM.jpg"
+    }
+]
+
+
+
+

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ESTIM</title>     
+    <link rel="stylesheet" href="/src/style/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body class="fondo">    
+    <p class="divTitulo">
+          <span class="centrarh1"> ESTIM</span>
+          <span class="centrarh2"> Tu pagina de videojuegos</span>
+  </p>
+  
+    <nav class="navbar navbar-expand-lg bg-rgba(48, 78, 177, 0.66)">
+      <div class="container-fluid">
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          
+          <ul class="navbar-nav">
+              <li><button class="nav-link text-body"  id="open">Carrito<i class="fa-solid fa-cart-shopping"></i> <span id="counter"></span></a></button></li>
+                <li><button class="btn btn-success"  id="inicioSesionBtn" style="float: right">LOG IN</button></li>
+               <li><button class="btn btn-warning"  id="registroUsuarioBtn" style="float: right">REGISTRATE</button></li>
+                </li><button class="btn btn-danger"  id="LogOutBtn" style="float: right">LOG OUT</button></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <main id="product-container">
+    </main> 
+        <div class="modal-container" id="modal_container">                    
+            <div id="modalCart" class="modal-cart">  
+              <button id="close" class="btn btn-danger btn-sm">X</button> 
+              <h3 id="cartTitle"><i class="fa-solid fa-cart-shopping"></i>Carrito<i class="fa-solid fa-cart-shopping"></i></h3>           
+            <div class="cart-container" id="cart-container"></div>              
+                <button id="comprarCarrito" class="botonComprar"><i class="fa-solid fa-cart-shopping"></i>Compra Ahora<i class="fa-solid fa-cart-shopping"></i></button>
+  
+            </div>
+        </div>
+    
+      </body>
+    <script src="sweetalert2.all.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" 
+    crossorigin="anonymous"></script>
+    <script src="usuario.js"></script>
+    <script src="videojuego.js"></script>
+    <script defer src="main.js"></script>
+
+</html>

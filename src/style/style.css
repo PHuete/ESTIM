@@ -1,0 +1,293 @@
+.modal-container {
+  display: inline;
+  box-sizing:content-box;
+  padding-top: 80%;
+  position: relative;
+  top: 20%;
+  left: 25%;
+  width: 40%;
+  height: 70%;
+  align-content: center;
+  z-index: auto;
+  background: rgba(0, 0, 0, 0.5);
+  visibility: hidden;
+ 
+}
+
+/* hacer visible el modal  */
+.modal-active {
+  opacity: 1;
+  visibility: visible;
+  z-index: 5;
+}
+
+.modal-cart {
+  box-sizing:content-box;
+  padding-top: 20%;
+  position: fixed;
+  top: 20%;
+  left: 25%;
+  width: 50%;
+  height: 20%;
+  background-color: rgb(255, 255, 255);
+  align-content: center;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+
+#cart-container {
+  padding-top: 1%;
+  position: absolute;
+  top: 40px;
+  width: 100%;
+  height: 82%;
+  background-color: rgb(255, 255, 255);
+  /* padding-top: 16%;
+  display: normal;
+  margin: 40px auto;
+  justify-content: space-evenly;
+  flex-wrap: wrap;*/
+  overflow-y: scroll;
+}
+
+
+#cartTitle {
+  margin-left: 42%;
+  padding: 5px;
+  font: bold  Helvetica, sans-serif;
+  position: absolute;
+  top: 0px;
+
+
+
+}
+
+#close {
+  margin: 5px;
+  position: absolute;
+  top: 0px;
+  left: 96%;
+  color: black;
+}
+
+.productInCart {
+  color:rgb(31, 31, 31);
+  background-color: grey;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  margin: 10px 0;
+  padding: 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  border-style: solid; 
+  align-items: center;
+  ;
+  /* border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 20%;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between; */
+}
+
+
+.card {
+  margin: 15px;
+  padding: 0, 5px;
+  position: fixed;
+  top: 100px;
+  box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 2 );
+
+}
+
+#product-container {
+
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: space-evenly;
+  margin-left: 100px;
+  flex-wrap: wrap;
+  
+  position: relative;
+  top: -100px;
+}
+
+/* #product-container {
+
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+} */
+
+
+/* .btn-dark {
+  margin: 15px;
+  padding: 5px;
+  border-radius: 10px;
+  position: relative;
+  justify-items: space-evenly;
+  top: -45%;
+  left: 725%;
+} */
+
+.fondo {
+  background: linear-gradient(to right, #1108c6,  #1d96ce) 
+}
+
+.btn-primary {
+  background-color: rgb(42, 4, 253);
+  border-radius: 20px;
+  justify-content: center;
+  color: white;
+  width: 100%;
+}
+
+.centrarh1 {  
+  position: relative;
+  left: 39%;
+  top: 20px;
+  font: bold 8.5rem 'Bevan';
+  color: rgb(68, 0, 97); ;
+  text-shadow: 4px 4px 4px rgb(0, 0, 0);
+
+}
+
+.centrarh2 {
+  position: relative;
+  left: 400px;
+  top: 50px;
+  font: bold 2rem 'Bevan';
+}
+
+
+.botonComprar {
+  margin: 15px;
+  padding: 5px;
+  border-radius: 20px;
+  background-color: rgb(39, 38, 45);
+  color: white;
+  position: relative;
+  top: 70%;
+  left: 1%;
+  text-align: center;
+  width: 95%;
+}
+
+
+
+.container-fluid {
+  background-color: rgba(48, 78, 177, 0.66);
+}
+
+.count{
+	font-size: 20px;
+	font-weight: 600;
+	color: #202020;
+}
+
+.counter{
+	width: 10%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.btnMasMenos{
+	width: 30px;
+	height: 30px;
+	border-radius: 20%;
+	background-color: #d9d9d9;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	font-weight: 900;
+	color: #202020;
+	cursor: pointer;
+}
+
+.nav-link{
+  background-color: rgb(140, 229, 228);
+
+}
+
+.navbar-collapse{
+  height: 20%;
+  background: linear-gradient(to right, #1108c6, #1d96ce);
+  top: -10%;
+}
+
+
+
+.container-fluid{
+  background: linear-gradient(to right, #1108c6, #1d96ce) ;
+  box-sizing: content-box;
+ 
+}
+
+#scroll{
+  border:1px solid;
+  height:100px;
+  width:300px;
+  overflow-y:scroll;
+  overflow-x:hidden;
+} 
+.btn-warning {
+  margin: 50px;
+  padding: 5px;
+  border-radius: 10px;
+  position: relative;
+  left: 375%;
+  top: -155%;
+}
+
+
+#inicioSesionBtn {
+  margin: 15px;
+  padding: 5px;
+  border-radius: 10px;
+  position: absolute;
+  font-size: 1.5rem;
+  left: 92%;
+  top: -180px;
+}
+
+#registroUsuarioBtn {
+  margin: 15px;
+  padding: 5px;
+  border-radius: 10px;
+  position: absolute;
+  font-size: 1.5rem;
+  top: -180px;
+
+  left:84%;
+}
+
+#LogOutBtn {
+  margin: 15px;
+  padding: 5px;
+  border-radius: 10px;
+  position: absolute;
+  font-size: 1.5rem;
+  left: 92%;
+  top: -180px;
+}
+
+#open{
+  margin: 15px;
+  padding: 5px;
+  border-radius: 10px;
+  position: relative;
+  font-size: 1.5rem;
+  top: -230%;
+  
+}
+
+.card-body {
+  
+text-align: center;  
+
+}
